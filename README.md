@@ -30,7 +30,7 @@ Run */usr/local/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf* from 
 * Run *mosquitto_sub -t "my/response/topic" -v* from within another terminal
 * Run *mosquitto_sub -t "my/publishing/topic" -v* from within another terminal
 * Run the *main()* Method in PahoResponseClient
-* Run *mosquitto_pub -t "my/subscription/topic" -m "Hello World"* from within another terminal. Now the PahoResponseClient should invode the messageArrived() method, print out that it has received a message and publish a message to the reponse topic.
+* Run *mosquitto_pub -t "my/subscription/topic" -m "Hello World"* from within another terminal. Now the PahoResponseClient should invoke the messageArrived() method, print out that it has received a message and publish a response to the reponse topic.
 
 
 Test - Environment
